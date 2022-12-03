@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@700&display=swap');
+$red: #E1332D;
+$white: #fff;
+
+/*formulario*/
+body {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(40%2c 16%2c 81%2c 1)'%3e%3c/rect%3e%3cpath d='M362.491%2c492.309C405.052%2c494.577%2c452.052%2c488.195%2c474.834%2c452.174C498.799%2c414.282%2c491.882%2c364.277%2c467.089%2c326.922C444.669%2c293.142%2c402.985%2c280.926%2c362.491%2c282.913C325.682%2c284.719%2c293%2c304.64%2c274.279%2c336.384C255.232%2c368.682%2c250.673%2c408.576%2c269.136%2c441.211C287.858%2c474.304%2c324.523%2c490.285%2c362.491%2c492.309' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M404.211%2c509.406C440.101%2c508.099%2c458.83%2c470.897%2c476.668%2c439.726C494.325%2c408.87%2c515.827%2c374.458%2c499.509%2c342.873C482.338%2c309.636%2c441.62%2c299.111%2c404.211%2c299.476C367.545%2c299.833%2c330.079%2c312.755%2c312.077%2c344.7C294.336%2c376.181%2c304.358%2c413.821%2c321.999%2c445.358C340.176%2c477.853%2c367.003%2c510.761%2c404.211%2c509.406' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M711.588%2c538.173C758.472%2c536.272%2c796.661%2c504.246%2c819.442%2c463.224C841.489%2c423.525%2c848.221%2c374.45%2c823.758%2c336.192C800.73%2c300.178%2c754.335%2c294.427%2c711.588%2c294.55C669.132%2c294.672%2c624.808%2c302.006%2c600.528%2c336.834C572.653%2c376.818%2c563.895%2c429.953%2c587.437%2c472.632C611.662%2c516.55%2c661.473%2c540.205%2c711.588%2c538.173' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1387.5485268357693 577.5333636415198L1432.4562284163023 542.4476218771964 1357.3737649795505 492.6289403885585z' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M864.4196661243071 81.37744852014528L706.7318999207259 70.35084574703521 695.7052971476159 228.03861195061643 853.393063351197 239.06521472372646z' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1085.15%2c344.407C1141.368%2c347.13%2c1207.081%2c349.488%2c1236.786%2c301.681C1267.412%2c252.392%2c1241.276%2c190.989%2c1211.377%2c141.256C1182.646%2c93.465%2c1140.909%2c48.809%2c1085.15%2c49.451C1030.187%2c50.084%2c989.863%2c95.679%2c963.859%2c144.106C939.489%2c189.49%2c930.302%2c244.065%2c956.985%2c288.129C982.889%2c330.906%2c1035.2%2c341.988%2c1085.15%2c344.407' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1147.8072656214545 305.39284549632265L1101.5690753243302 385.47974034098 1181.6559701689878 431.71793063810424 1227.8941604661118 351.6310357934468z' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M75.02076105175442 90.82225924152486L174.58010084105592 121.26060404088233 105.45910585111189-8.737080547776657z' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M193.20972629954787 55.69436020098768L170.57037885827086 162.20411583216352 277.08013448944666 184.84346327344053 299.7194819307237 78.33370764226468z' fill='rgba(82%2c 58%2c 185%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+	margin: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.glass {
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(7.5px);
+	-webkit-backdrop-filter: blur(7.5px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form-register {
+	width: 400px;
+	background: #5E548E;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 9px 18px rgba(0, 0, 0, 0.534);
+	font-family: 'Merriweather', serif;
+}
+
+.index {
+	margin-top: 150px;
+	width: 400px;
+	padding: 10px 0 240px 10px;
+	margin-left: 35%;
+	font-family: 'Merriweather', serif;
+	color: white;
+
+}
+
+.controls {
+	width: 100%;
+	background: #2b243c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #6b2fd1;
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	color: white;
+}
+
+.form-register .botons {
+	width: 100%;
+	background: #220E44;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 18px bold;
+	font-family: 'Merriweather', serif;
+}
+
+.form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.index-h1{
+	font-size: 35px;
+	text-shadow: -1px -1px #eee, 1px 1px #888, -3px 0 4px #000;
+	font-family:"Segoe print", Arial, Helvetica, sans-serif;
+	color:#ccc;
+	font-weight:lighter;
+	text-align:center;
+	display:inline;
+	line-height:92px;
+	margin-left: 25%;
+}
+
+header {
+	margin: 0;
+	background-color: #220e44;
+	padding: 40px 0px 40px 0px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Merriweather', serif;
+}
+
+/*  Botones INDEX  */
+
+.btn-index {
+	margin-bottom: 25px;
+	text-align: center;
+	text-decoration: none;
+	margin: auto;
+	padding: 1.2vmax 30% 1.2vmax 30%;
+	background: #220E44;
+	border-radius: 15px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+/*  Boton Administrar*/
+
+.btn-admin{
+	text-decoration: none;
+	margin: auto;
+	padding: 1vmax 10% 1vmax 10%;
+	background-color: #5f838f00;
+	border-radius: 10px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+.btn-5 {
+	border: 0 solid;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+	outline: 1px solid;
+	outline-color: rgba(255, 255, 255, .5);
+	outline-offset: 0px;
+	text-shadow: none;
+	transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  } 
+  
+.btn-5:hover {
+	border: 1px solid;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+	outline-color: rgba(255, 255, 255, 0);
+	outline-offset: 15px;
+	text-shadow: 1px 1px 2px #427388; 
+}
+
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	background-color: #d3d4d4;
+	color: black;
+	padding: 13px 15px;
+	font-size: 1.2vmax;
+	cursor: pointer;
+	user-select: none;
+}

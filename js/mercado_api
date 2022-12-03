@@ -1,0 +1,10 @@
+<dependency>
+   <groupId>com.mercadopago</groupId>
+   <artifactId>sdk-java</artifactId>
+   <version>2.0.0</version>
+</dependency>
+
+// SDK de Mercado Pago
+import com.mercadopago.MercadoPagoConfig;
+// Agrega credenciales
+MercadoPagoConfig.setAccessToken("TEST-8478156593610624-041803-a0b8771322ae4f9ea1c8a6af15f3ba2d-1108532104");

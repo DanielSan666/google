@@ -1,0 +1,87 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+body{
+	background-color: rgb(218, 212, 206);
+	font-family: Arial;
+	font-size: 1vmax;
+}
+h1{
+	color: #fff;
+}
+#main-container{
+	margin: 10.5vmax auto;
+	width: 40vmax;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 1.5vmax;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid .5vmax #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+/*botones*/
+.botones{
+		text-decoration: none;
+		background-color: white; 
+		color: black; 
+		border: .1vmax solid #128b40;
+		padding: .1vmax .1vmax;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 6%;
+		font-size:.5vmax;
+	  
+}
+	
+.botones:hover {
+		background-color: #128b40;
+		color: white;
+		padding: .2vmax .4vmax;
+	}
+	.botones1{
+		text-decoration: none;
+		background-color: white; 
+		color: black; 
+		border: .1vmax solid rgb(204, 12, 12);
+		padding: .1vmax .1vmax;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 6%;
+		font-size:.5vmax;
+	  
+}
+	
+.botones1:hover {
+		background-color: rgb(204, 12, 12);
+		color: white;
+		padding: .2vmax .4vmax;
+	}
+a{
+	text-decoration: none;
+}
+
+
+
