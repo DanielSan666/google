@@ -17,8 +17,8 @@
 		<div class="col-md-3">
 			<div class="contact-info">
 				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
-				<h2>Dejanos tus comentarios!</h2>
-				<h4>Ingresa tus datos </h4>
+				<h2>Envia un mensaje!</h2>
+				<h4>Ingresa los datos del contacto</h4>
 			</div>
 		</div>
 		<div class="col-md-9">
@@ -27,19 +27,19 @@
 				<div class="form-group">
 				  <label class="control-label col-sm-2" for="fname">Nombre:</label>
 				  <div class="col-sm-10">          
-					<input type="text" class="form-control" id="fname" placeholder="Ingrese tu nombre" name="fname">
+					<input type="text" class="form-control" id="fname" placeholder="Ingrese su nombre" name="fname">
 				  </div>
 				</div>
 				<div class="form-group">
 				  <label class="control-label col-sm-2" for="lname">Apellidos:</label>
 				  <div class="col-sm-10">          
-					<input type="text" class="form-control" id="lname" placeholder="Ingrese tu apellido" name="lname">
+					<input type="text" class="form-control" id="lname" placeholder="Ingrese su apellido" name="lname">
 				  </div>
 				</div>
 				<div class="form-group">
 				  <label class="control-label col-sm-2" for="number">Telefono:</label>
 				  <div class="col-sm-10">
-					<input type="text" class="form-control" id="number" placeholder="Ingresa tu numero telefonico" name="number">
+					<input type="text" class="form-control" id="number" placeholder="Ingrese su numero de telefono" name="number">
 				  </div>
 				</div>
 				<div class="form-group">
